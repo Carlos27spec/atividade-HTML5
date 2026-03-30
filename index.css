@@ -22,6 +22,7 @@ h1 {
     text-align: center;
     font-family: 'Undertale', sans-serif;
     color: aqua;
+    background-color: rgba(0, 0, 0, 0.418);
 }
 
 .imagens{
@@ -99,6 +100,21 @@ footer {
     text-align: end;
     padding: 1px 850px;
     font-size: x-large;
+}
 
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1px 200px;
+background-color: rgba(0, 0, 0, 0.418);
+height: 100px;
+}
 
+header a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Trajan-Pro', serif;
+    font-size: x-large;
+    transition: color 0.3s ease;
 }
