@@ -1,0 +1,27 @@
+H1 {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(229, 232, 34);
+    font-family: 'Undertale', sans-serif;
+    -webkit-text-stroke: 1px black; /* espessura e cor */
+    font-size: xxx-large;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: black;
+    background-image: url(https://static.wikia.nocookie.net/undertale/images/a/ac/Tem_Shop_location.png/revision/latest?cb=20230713114911&path-prefix=pt-br);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+}
+
+@font-face {
+    font-family: 'Undertale';
+    src: url('undertale-deltarune-text-font-extended.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Trajan-Pro';
+    src: url('trajan-pro-bold.otf') format('truetype');
+}
