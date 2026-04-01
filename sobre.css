@@ -32,6 +32,11 @@ h1 {
     src: url('trajan-pro-bold.otf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Cuphead';
+    src: url('alegreya-sans-sc/alegreya-sans-sc-regular.ttf') format('truetype');
+}
+
 h2 {
     text-align: center;
     font-family: 'Trajan-Pro', serif;
@@ -39,6 +44,7 @@ h2 {
     background-color: rgba(137, 43, 226, 0.508);
     border-radius: 5px;
     font-size: xx-large;
+     animation: fadeUp 0.5s ease forwards;
 }
 
 h3 {
@@ -48,21 +54,32 @@ h3 {
     background-color: rgba(137, 43, 226, 0.446);
     border-radius: 5px;
     font-size: x-large;
+     animation: fadeUp 0.5s ease forwards;
+}
+
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
 }
 
 header {
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 1px 200px;
-background-color: rgba(0, 0, 0, 0.418);
-height: 100px;
+   position: relative;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 0 2rem;
+    height: 72px;
+    background: rgba(0, 0, 0, 0.55);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 header a {
     color: aliceblue;
     text-decoration: none;
-    font-family: 'Trajan-Pro', serif;
+    font-family: 'Cuphead', sans-serif;
     font-size: x-large;
     transition: color 0.3s ease;
 }
