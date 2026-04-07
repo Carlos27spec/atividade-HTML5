@@ -185,3 +185,15 @@ h1 {
     font-family: 'Trajan-Pro';
     src: url('trajan-pro-bold.otf') format('truetype');
 }
+
+footer {
+    text-align: end;
+    gap: 3rem;
+    padding: 0 2rem;
+    border-top: 1px solid rgba(0, 255, 255, 0.3);
+    color: aqua;
+    font-family: 'Undertale', sans-serif;
+    font-size: 18px;
+    opacity: 0.7;
+    background-color: black;
+}
