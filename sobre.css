@@ -20,6 +20,12 @@ body > * {
     z-index: 1;
 }
 
+:root{
+ --cor-fundo: rgba(0, 0, 0, 0.668);
+ --cor-texto: white;
+
+}
+
 h1 {
     text-align: center;
     font-family: 'Undertale', sans-serif;
@@ -43,8 +49,8 @@ h1 {
 h2 {
     text-align: center;
     font-family: 'Cuphead', serif;
-    color: aliceblue;
-    background-color: rgba(137, 43, 226, 0.508);
+    color: var(--cor-texto);
+    background-color: var(--cor-fundo);
     border-radius: 5px;
     font-size: xx-large;
      animation: fadeUp 0.5s ease forwards;
@@ -53,8 +59,8 @@ h2 {
 h3 {
     text-align: center;
     font-family: 'Cuphead', serif;
-    color: aliceblue;
-    background-color: rgba(137, 43, 226, 0.446);
+    color: var(--cor-texto);
+    background-color: var(--cor-fundo);
     border-radius: 5px;
     font-size: x-large;
      animation: fadeUp 0.5s ease forwards;

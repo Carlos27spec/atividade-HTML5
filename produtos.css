@@ -1,12 +1,20 @@
+
 .topo {
+    margin: 20px auto;
     text-align: center;
-    margin-top: 20px;
     color: rgb(229, 232, 34);
     font-family: 'Undertale', sans-serif;
-    -webkit-text-stroke: 0.5px black; /* espessura e cor */
+    -webkit-text-stroke: 0.5px black;
     font-size: xxx-large;
-     animation: fadeUp 0.5s ease forwards;
+    animation: fadeUp 0.5s ease forwards;
+    box-shadow: 0px 0px 20px 5px var(--cor-fundo);
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.8);
+    display: flex;
+    width: fit-content;
+    padding: -10px 5px;
+    border-radius: 8px;
 }
+
 
 body {
     margin: 0;
@@ -32,6 +40,10 @@ header h1{
     font-family: 'Undertale', sans-serif;
     color: aqua;
 }
+
+:root{
+ --cor-fundo: rgba(0, 0, 0, 0.918);
+}
 .Produtos{  
     display: flex;
     flex-direction: column;
@@ -43,6 +55,7 @@ header h1{
     background-color: rgb(229, 229, 229);
     border: 3px solid black;
       animation: fadeUp 0.5s ease forwards;
+      box-shadow: 10px 0 8px 0px var(--cor-fundo)
 
 }
 
@@ -169,4 +182,16 @@ header a {
 @keyframes fadeUp {
     from { opacity: 0; transform: translateY(20px); }
     to   { opacity: 1; transform: translateY(0); }
+}
+
+footer {
+    text-align: end;
+    gap: 3rem;
+    padding: 0 2rem;
+    border-top: 1px solid rgba(0, 255, 255, 0.3);
+    color: aqua;
+    font-family: 'Undertale', sans-serif;
+    font-size: 18px;
+    opacity: 0.7;
+    background-color: var(--cor-fundo);
 }

@@ -26,6 +26,11 @@ body::before {
     background: rgba(0, 0, 0, 0.38);
 }
 
+:root{
+ --cor-fundo: rgba(0, 0, 0, 0.55);
+ --cor-texto: rgb(255, 0, 0);
+}
+
 /* ── HEADER ── */
 header {
     position: relative;
@@ -84,7 +89,7 @@ header a {
     font-family: 'Friday', sans-serif;
     font-size: 28px;
     font-weight: 600;
-    color: #ffffff;
+    color: var(--cor-texto);
     letter-spacing: 0.04em;
     text-transform: uppercase;
     margin-bottom: 0.3rem;
@@ -116,7 +121,7 @@ header a {
     padding: 10px 14px;
     font-family: 'Friday', sans-serif;
     font-size: 14px;
-    color: #ffffff;
+    color: var(--cor-texto);
     background: rgba(255, 255, 255, 0.06);
     border: 1px solid rgba(255, 255, 255, 0.12);
     border-radius: 4px;
@@ -143,7 +148,7 @@ header a {
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #ffffff;
+    color:var(--cor-texto);
     background: rgba(255, 255, 255, 0.12);
     border: 1px solid rgba(255, 255, 255, 0.25);
     border-radius: 4px;

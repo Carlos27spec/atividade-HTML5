@@ -17,6 +17,9 @@ body > * {
     z-index: 1;
 }
 
+:root{
+ --cor-texto: white;
+}
 
 h1 {
     text-align: center;
@@ -57,7 +60,7 @@ h1 {
 .card p{
     margin-top: 10px;
     width: 800px;
-    color: aliceblue;
+    color: var(--cor-texto);
     font-family: 'Trajan-Pro';
       animation: fadeUp 0.5s ease forwards;
 
@@ -129,7 +132,7 @@ header {
 }
 
 header a {
-    color: aliceblue;
+    color: var(--cor-texto);
     text-decoration: none;
     font-family: 'Cuphead', sans-serif;
     font-size: x-large;
