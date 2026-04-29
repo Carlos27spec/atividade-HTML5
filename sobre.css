@@ -72,9 +72,9 @@ h3 {
 }
 
 header {
-   position: relative;
+    position: relative;
     z-index: 2;
-    width: 97%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,14 +83,19 @@ header {
     height: 72px;
     background: rgba(0, 0, 0, 0.55);
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
 }
 
 header a {
-    color: aliceblue;
+    color: rgba(255, 255, 255, 0.75);
     text-decoration: none;
     font-family: 'Cuphead', sans-serif;
-    font-size: x-large;
-    transition: color 0.3s ease;
+    font-size: 15px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 6px 0;
+    border-bottom: 2px solid transparent;
+    transition: color 0.25s ease, border-color 0.25s ease;
 }
 
 .redes a img {
